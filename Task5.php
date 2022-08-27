@@ -6,7 +6,7 @@ use InvalidArgumentException;
 
 class Task5
 {
-    public function findFibonacci(int $length): string
+    public function main(int $length): string
     {
         if ($length > 0) {
             $number1 = 0;
