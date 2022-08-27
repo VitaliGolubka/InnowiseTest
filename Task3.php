@@ -6,7 +6,7 @@ use InvalidArgumentException;
 
 class Task3
 {
-    public function calculateResult(int $number): int
+    public function main(int $number): int
     {
         if ($number > 0) {
             do {
