@@ -10,7 +10,7 @@ class Task2
     const SECONDS_IN_DAY = 86400;
     const AMOUNT_OF_DATE_COMPONENTS = 3;
 
-    function birthdayCount(string $date): int
+    public function main(string $date): int
     {
         $dateComponents = explode(self::SEPARATOR, $date);
 
