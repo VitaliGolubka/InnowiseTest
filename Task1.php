@@ -9,7 +9,7 @@ class Task1
     const MORE_THAN_10_TEXT = "More than 10";
     const EQUAL_OR_LESS_THAT_10_TEXT = "Equal or less than 10";
 
-    public function checkNumber(int $number): string
+    public function main(int $number): string
     {
         $result = $number > 30
             ? self::MORE_THAN_30_TEXT
