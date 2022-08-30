@@ -15,17 +15,17 @@ class Task12
 
     public function add(): Task12
     {
-        return new Task12($this->number1 + $this->number2, null);
+        return new Task12($this->number1 + $this->number2, 0);
     }
 
     public function subtract(): Task12
     {
-        return new Task12($this->number1 - $this->number2, null);
+        return new Task12($this->number1 - $this->number2, 0);
     }
 
     public function multiply(): Task12
     {
-        return new Task12($this->number1 * $this->number2, null);
+        return new Task12($this->number1 * $this->number2, 0);
     }
 
     public function divideBy($divider): int
